@@ -15,3 +15,12 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# IPTV
+git clone https://github.com/riverscn/openwrt-iptvhelper.git ./package/diy/iptvhelper
+
+# Passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git ./package/diy/passwall
+
+# luci-apfree-wifidog
+git clone https://github.com/jmnmu/luci-app-apfree_wifidog.git ./package/diy/luci-app-apfree_wifidog
